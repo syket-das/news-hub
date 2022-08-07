@@ -3,6 +3,8 @@ const cors = require('cors');
 const connectDB = require('./db');
 const News = require('./model/news');
 const dotenv = require('dotenv').config();
+const path = require('path');
+
 const app = express();
 
 app.use(express.json());
